@@ -34,14 +34,14 @@ Ideal para um rápido estudo sobre o **FastAPI**.
 
 ## 📁 Estrutura do Projeto
 fastapi-quickstart/
-├── main.py # Ponto de entrada da aplicação
-├── db.py # Instância do banco (engine + session)
-├── models/ # Models SQLAlchemy (ex: User)
-├── schemas/ # Schemas Pydantic (validação de dados)
-├── routes/ # Rotas organizadas por funcionalidade
-├── utils/
-│ └── auth/ # Lógica JWT (criação e validação de token)
-├── middleware/ # Middleware para verificar autenticação
+├── main.py # Ponto de entrada da aplicação <br>
+├── db.py # Instância do banco (engine + session) <br>
+├── models/ # Models SQLAlchemy (ex: User) <br>
+├── schemas/ # Schemas Pydantic (validação de dados) <br>
+├── routes/ # Rotas organizadas por funcionalidade <br>
+├── utils/ <br>
+│ └── auth/ # Lógica JWT (criação e validação de token) <br>
+├── middleware/ # Middleware para verificar autenticação <br>
 
 ---
 
@@ -55,12 +55,14 @@ cd fastapi-quickstart
 
 # 2. Crie o ambiente virtual
 python -m venv .venv
+
+# 3. Ative o ambiente Virtual
 source .venv/bin/activate  # No Windows: .venv\Scripts\activate
 
-# 3. Instale as dependências
+# 4. Instale as dependências
 pip install -r requirements.txt
 
-# 4. Rode a aplicação
+# 5. Rode a aplicação
 uvicorn main:app --reload
 ```
 
