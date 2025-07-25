@@ -7,7 +7,7 @@ from routes import users
 from routes import auth
 
 # Instância da aplicação
-app = FastAPI(title="API de Usuários com FastAPI", version=1.0)
+app = FastAPI(title="API de Usuários com FastAPI", version="1.0")
 
 # Cria tabelas automaticamente se ainda não existirem
 Base.metadata.create_all(bind=engine)
