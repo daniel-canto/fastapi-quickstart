@@ -20,8 +20,6 @@ def create_token(data: dict, expires_delta: timedelta = None):
 def validate_token(token: str):
     try:
         payload = jwt.decode(token, SECRET_KEY, algorithms=[ALGORITHM])
-        print("###", payload)
         return payload
     except JWTError:
-        print("Saiu")
         return None

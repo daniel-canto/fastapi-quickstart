@@ -19,7 +19,7 @@ async def verify_token(request: Request, call_next):
             # raise HTTPException(status_code=401, detail="Token ausente ou inválido")
             return JSONResponse(
                 status_code=401,
-                content={"error": "Token expirado ou inválido"}
+                content={"Error": "Token expirado ou inválido"}
             )
         
         token = auth_header.split(" ")[1]
@@ -28,7 +28,7 @@ async def verify_token(request: Request, call_next):
             # raise HTTPException(status_code=401, detail="Token expirado ou inválido")
             return JSONResponse(
                 status_code=401,
-                content={"error": "Token expirado ou inválido"}
+                content={"Error": "Token expirado ou inválido"}
             )
 
     response = await call_next(request)
