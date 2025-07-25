@@ -74,5 +74,5 @@ Acesse: http://localhost:8000/docs para testar a API com Swagger UI.
 
 Daniel Canto
 
-📧 Entre em contato: [daniel.canto.contato@gmail.com] <br>
-💼 LinkedIn: [Daniel Canto](www.linkedin.com/in/daniel-canto-767399234) 
+📧 Entre em contato: daniel.canto.contato@gmail.com <br>
+💼 LinkedIn: [Daniel Canto](https://www.linkedin.com/in/daniel-canto-767399234/) 
